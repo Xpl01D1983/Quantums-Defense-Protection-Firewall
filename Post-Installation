@@ -1,0 +1,7 @@
+sudo qdefense start
+
+sudo qdefense enable
+
+sudo qdefense status
+
+sudo qdefense test
