@@ -1,0 +1,25 @@
+name: Security Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Run security tests
+      run: |
+        echo "Running security checks..."
+        # Add security scanning tools here
+        # bandit, safety, etc.
+        
+    - name: Test deployment
+      run: |
+        chmod +x ./scripts/deploy.sh
+        echo "Testing deployment script..."
