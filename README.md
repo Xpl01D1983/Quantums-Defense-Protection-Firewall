@@ -1,7 +1,3 @@
-# Quantums-Defense-Protection-Firewall
-AI-Firewall-Generation
-
-
 quantum-defense-matrix/
 ├── README.md
 ├── LICENSE
