@@ -44,4 +44,7 @@ sudo /opt/quantum-ai/bin/pip install -r requirements.txt
 
 # Enable services
 sudo systemctl enable /etc/systemd/system/quantum-defense.service
-<img width="1792" height="1177" alt="Screenshot 2025-11-08 225109" src="https://github.com/user-attachments/assets/f575bdb4-8b8f-4475-a0f6-a21cf2532f8e" />
+
+
+<img width="1792" height="1177" alt="Screenshot 2025-11-08 225109" src="https://github.com/user-attachments/assets/bbaab3b3-0512-4a2d-9d1c-e77fc532b0fa" />
+
